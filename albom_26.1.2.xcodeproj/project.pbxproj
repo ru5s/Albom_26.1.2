@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B58ABB8528B395B600A6E1D7 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ABB8428B395B600A6E1D7 /* ThirdViewController.swift */; };
+		B58ABB8728B3986A00A6E1D7 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ABB8628B3986A00A6E1D7 /* MyCollectionViewCell.swift */; };
+		B58ABB8A28B39E9400A6E1D7 /* MyToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58ABB8928B39E9400A6E1D7 /* MyToolbar.swift */; };
 		B591226328B2871F00A31661 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591226228B2871F00A31661 /* AppDelegate.swift */; };
 		B591226528B2871F00A31661 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591226428B2871F00A31661 /* SceneDelegate.swift */; };
 		B591226728B2871F00A31661 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591226628B2871F00A31661 /* ViewController.swift */; };
 		B591226A28B2871F00A31661 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B591226828B2871F00A31661 /* Main.storyboard */; };
 		B591226C28B2872100A31661 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B591226B28B2872100A31661 /* Assets.xcassets */; };
 		B591226F28B2872100A31661 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B591226D28B2872100A31661 /* LaunchScreen.storyboard */; };
+		B591227A28B28BBF00A31661 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591227828B28BBF00A31661 /* CustomTableViewCell.swift */; };
+		B591227B28B28BBF00A31661 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B591227928B28BBF00A31661 /* CustomTableViewCell.xib */; };
+		B591227D28B3686100A31661 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591227C28B3686100A31661 /* SecondViewController.swift */; };
+		B591227F28B368D300A31661 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591227E28B368D300A31661 /* Entity.swift */; };
+		B591228428B36BC300A31661 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B591228228B36BC300A31661 /* CustomCollectionViewCell.swift */; };
+		B591228528B36BC300A31661 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B591228328B36BC300A31661 /* CustomCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B58ABB8428B395B600A6E1D7 /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		B58ABB8628B3986A00A6E1D7 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		B58ABB8928B39E9400A6E1D7 /* MyToolbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyToolbar.swift; sourceTree = "<group>"; };
 		B591225F28B2871F00A31661 /* albom_26.1.2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = albom_26.1.2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B591226228B2871F00A31661 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B591226428B2871F00A31661 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +36,12 @@
 		B591226B28B2872100A31661 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B591226E28B2872100A31661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B591227028B2872100A31661 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B591227828B28BBF00A31661 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		B591227928B28BBF00A31661 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		B591227C28B3686100A31661 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B591227E28B368D300A31661 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		B591228228B36BC300A31661 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		B591228328B36BC300A31661 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +55,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B58ABB8828B39DCF00A6E1D7 /* CollectionInStoryboard */ = {
+			isa = PBXGroup;
+			children = (
+				B58ABB8428B395B600A6E1D7 /* ThirdViewController.swift */,
+				B58ABB8628B3986A00A6E1D7 /* MyCollectionViewCell.swift */,
+			);
+			path = CollectionInStoryboard;
+			sourceTree = "<group>";
+		};
 		B591225628B2871F00A31661 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +83,39 @@
 		B591226128B2871F00A31661 /* albom_26.1.2 */ = {
 			isa = PBXGroup;
 			children = (
+				B591228628B36BD000A31661 /* ViewControllerWithTableView */,
+				B58ABB8828B39DCF00A6E1D7 /* CollectionInStoryboard */,
+				B591228728B36BE900A31661 /* ViewControllerWithCollectionView */,
 				B591226228B2871F00A31661 /* AppDelegate.swift */,
 				B591226428B2871F00A31661 /* SceneDelegate.swift */,
-				B591226628B2871F00A31661 /* ViewController.swift */,
 				B591226828B2871F00A31661 /* Main.storyboard */,
+				B58ABB8928B39E9400A6E1D7 /* MyToolbar.swift */,
+				B591227E28B368D300A31661 /* Entity.swift */,
 				B591226B28B2872100A31661 /* Assets.xcassets */,
 				B591226D28B2872100A31661 /* LaunchScreen.storyboard */,
 				B591227028B2872100A31661 /* Info.plist */,
 			);
 			path = albom_26.1.2;
+			sourceTree = "<group>";
+		};
+		B591228628B36BD000A31661 /* ViewControllerWithTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B591226628B2871F00A31661 /* ViewController.swift */,
+				B591227828B28BBF00A31661 /* CustomTableViewCell.swift */,
+				B591227928B28BBF00A31661 /* CustomTableViewCell.xib */,
+			);
+			path = ViewControllerWithTableView;
+			sourceTree = "<group>";
+		};
+		B591228728B36BE900A31661 /* ViewControllerWithCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				B591227C28B3686100A31661 /* SecondViewController.swift */,
+				B591228228B36BC300A31661 /* CustomCollectionViewCell.swift */,
+				B591228328B36BC300A31661 /* CustomCollectionViewCell.xib */,
+			);
+			path = ViewControllerWithCollectionView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +178,8 @@
 			files = (
 				B591226F28B2872100A31661 /* LaunchScreen.storyboard in Resources */,
 				B591226C28B2872100A31661 /* Assets.xcassets in Resources */,
+				B591227B28B28BBF00A31661 /* CustomTableViewCell.xib in Resources */,
+				B591228528B36BC300A31661 /* CustomCollectionViewCell.xib in Resources */,
 				B591226A28B2871F00A31661 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +192,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B591226728B2871F00A31661 /* ViewController.swift in Sources */,
+				B591228428B36BC300A31661 /* CustomCollectionViewCell.swift in Sources */,
+				B58ABB8728B3986A00A6E1D7 /* MyCollectionViewCell.swift in Sources */,
 				B591226328B2871F00A31661 /* AppDelegate.swift in Sources */,
+				B591227F28B368D300A31661 /* Entity.swift in Sources */,
+				B591227A28B28BBF00A31661 /* CustomTableViewCell.swift in Sources */,
+				B591227D28B3686100A31661 /* SecondViewController.swift in Sources */,
+				B58ABB8A28B39E9400A6E1D7 /* MyToolbar.swift in Sources */,
+				B58ABB8528B395B600A6E1D7 /* ThirdViewController.swift in Sources */,
 				B591226528B2871F00A31661 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,7 +364,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -332,7 +392,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
