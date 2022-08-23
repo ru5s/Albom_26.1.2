@@ -11,6 +11,7 @@ import UIKit
 
 protocol Pictures {
     var arrayPictures: [UIImage] {get}
+    var arrayWidePictures: [UIImage] {get}
 }
 
 class AllPictures: Pictures {
@@ -33,5 +34,18 @@ class AllPictures: Pictures {
         UIImage(named: "pic 15")!,
     ]
     
+    var arrayWidePictures: [UIImage] = [
+        UIImage(named: "wide pic 1")!,
+        UIImage(named: "wide pic 2")!,
+        UIImage(named: "wide pic 3")!,
+        UIImage(named: "wide pic 4")!,
+        UIImage(named: "wide pic 5")!,
+        UIImage(named: "wide pic 6")!,
+        UIImage(named: "wide pic 7")!,
+        UIImage(named: "wide pic 8")!,
+        UIImage(named: "wide pic 9")!,
+        UIImage(named: "wide pic 10")!,
+        UIImage(named: "wide pic 11")!,
+    ]
     
 }

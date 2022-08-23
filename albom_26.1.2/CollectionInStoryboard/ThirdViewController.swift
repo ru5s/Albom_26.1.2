@@ -28,13 +28,13 @@ class ThirdViewController: UIViewController {
 
 extension ThirdViewController: UICollectionViewDelegate, UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return pictures.arrayPictures.count
+        return pictures.arrayWidePictures.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = myCollectionView.dequeueReusableCell(withReuseIdentifier: "myThirdCell", for: indexPath) as! MyCollectionViewCell
-        
-        cell.imageViewCell.image = pictures.arrayPictures[indexPath.item]
+//        cell.frame.size.height = CGFloat(Int(pictures.arrayWidePictures[indexPath.item].size.height))
+        cell.imageViewCell.image = pictures.arrayWidePictures[indexPath.item]
         return cell
         
     }
